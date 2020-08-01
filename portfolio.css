@@ -1,0 +1,161 @@
+
+@import url(../html/font.css);
+
+@import url(../html/variable.css);
+
+
+/*start navigation*/
+.header-area .main-menu .navbar .navbar-brand
+{
+	padding: 0 2rem 0 5rem;
+}
+.header-area .main-menu .navbar{
+	padding:1rem 20rem;
+}
+.header-area .main-menu .nav-item .nav-link
+{ font:normal 500 15px/2px 'Josefin',cursive;
+	
+	text-transform: uppercase;
+	
+	padding: 1.7rem;
+	color: black;
+	box-sizing: border-box;
+}
+.header-area .main-menu .navbar-nav .active a{
+background:#0000FF;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+background-clip: text;
+}
+.header-area .main-menu .navbar-nav  a:hover{
+background:#0000FF;
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+background-clip: text;
+}
+.site-main .site-banner .site-title h3{
+	padding-top: 35%;
+	font-weight: 500;
+}
+.site-main .site-banner .site-title h3::after{
+	content:" ";
+	height:2px;
+	width:18vw;
+	background: black;
+	display:inline-block;
+	margin-left: 5%;
+	transform: translateY(-10px);
+}
+.site-main .site-banner .site-title h1{
+	font-size: 4rem;
+}
+.site-main .site-banner .site-title h4{
+	font-size: 1.5rem;
+}
+.site-main .site-banner .banner-image>img{
+	padding: 7rem 0;
+	width:90rem;
+}
+.title-text{
+	font:normal bold 50px/72px 'Josefin',cursive;
+}
+.button{
+	padding:.8rem 2.2rem;
+	font:normal 500 16px/20px 'Josefin',cursive;
+    position: relative;
+    border:3px solid transparent ;
+    border-radius: 4px;
+}
+.button.primary-button{
+	background-color:whitesmoke ;
+	background-clip: padding-box;
+	background:var(--gradient-color);
+	transition:background .6s ease;
+	box-shadow: var(--box-shadow);
+
+}
+.button.primary-button:hover{
+	background:whitesmoke;
+	background-clip: padding-box;
+	color: black;
+}
+.button.primary-button::after , .button.secondary-button::after{
+position: absolute;
+top: -2px; left: -2px;
+bottom:-2px;right:-2px;
+background: var(--gradient-color);
+content: '';
+z-index:-1;
+border-radius: 4px;
+}
+.button.secondary-button{
+	background: white;
+	background-clip: padding-box;
+	transition: background .6s ease;
+}
+.button.secondary-button:hover{
+	background: var(--gradient-color);
+	color:whitesmoke;
+	box-shadow: var(--border-box);
+	}
+.site-main .about-area
+{
+	padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2>span{
+	display:block;
+	font:normal bold 49px/60px 'Josefin',cursive;
+	letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph>p{
+	padding:.4rem 0rem;
+}
+p.para{
+	color:var(--text-color);
+	font:normal 500 16px/25px 'Josefin',cursive;
+}
+.site-main .brand-area{
+	padding:1rem 20rem;
+	margin-bottom: 4rem;
+}
+.site-main .brand-area .first-row .col-lg-4{
+	display:flex;
+	justify-content: center;
+
+}
+.site-main .brand-area .first-row .col-lg-4 >.single-brand{
+	border:1px solid var(--border-color);
+	text-align: center;
+	padding :1.8rem 0rem;
+ margin:.9rem 0rem;
+ width:180px;
+ height: 100px;
+ cursor: pointer;
+ transition: transform .4s ease;
+ 
+
+}
+ .site-main .brand-area .first-row .col-lg-4 >.single-brand >.img{
+ 	width:50%;
+ }
+ .site-main .brand-area .first-row .col-lg-4:hover{
+ 	box-shadow: var(--box-shadow);
+ 	transform:scale(1.1);
+ }
+ .site-main .brand-area .first-row .col-lg-4 >.single-brand :hover>.img{
+
+
+filter:brightness(1.5);
+}
+.site-main .brand-area .experience-area{
+	padding :1rem;
+}
+.site-man .brand-area .experience-area span{
+	display: block;
+font:'Josefin',cursive;
+}
+
+
+
+
+
